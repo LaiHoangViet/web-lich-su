@@ -1,0 +1,298 @@
+.logo img {
+  width: 19%;
+}
+
+.header-tieu-de {
+  background-image: url(../Image/anh4.jpg);
+  height: 222px;
+  position: relative;
+  /* width: 100%; */
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  /* background-size: cover; */
+}
+
+.vn-en {
+  position: absolute;
+  top: 10%;
+  right: 8%;
+}
+
+.header-tieu-de h3 {
+  position: absolute;
+  left: 38%;
+  top: 45%;
+  color: #000000;
+}
+
+.vn-en a {
+  color: black;
+  font-size: 18px;
+}
+
+.vn-en a:hover {
+  color: #2f9e22;
+  text-decoration: none;
+}
+
+/*Menu*/
+li.nav-item {
+  margin-right: 2%;
+}
+
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0 {
+  width: 74%;
+}
+
+div#fixed-top-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.dropdown-menu.trang-chu-menu.show {
+  display: flex;
+}
+
+.trang-chu-menu-1 {
+  order: 1;
+}
+
+.trang-chu-menu-2 {
+  order: 2;
+}
+
+/*Bai viet*/
+.bai-viet-va-dong-lich-su.container {
+  display: flex;
+}
+
+.bai-viet {
+  width: 64%;
+  order: 1;
+}
+
+.bai-viet-1 {
+  margin-top: 4%;
+}
+
+.bai-viet-1 a {
+  color: black;
+}
+
+.bai-viet-1 a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+/*Dong lich su*/
+.dong-lich-su-main {
+  width: 33%;
+  order: 2;
+  margin-top: 2.2%;
+  margin-left: 3%;
+  height: 950px;
+  border-radius: 20px;
+}
+
+.dong-lich-su-main .tieu-de {
+  font-size: 27px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 3%;
+}
+
+.dong-lich-su {
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #F8F9FA;
+  padding: 10px 0 10px 0;
+}
+
+.dong-lich-su-1 {
+  margin-left: 15%;
+}
+
+.dong-lich-su-2 {
+  margin-left: 19%;
+}
+
+.dong-lich-su-1 a:before {
+  content: "\f054";
+  font-family: Fontawesome;
+  margin-right: 5px;
+}
+
+.dong-lich-su-1 a:hover {
+  color: #05970a;
+  text-decoration: none;
+}
+
+.dong-lich-su-2 a {
+  color: #000000;
+}
+
+.dong-lich-su-2 a:before {
+  content: "\f105";
+  font-family: Fontawesome;
+  font-size: 18px;
+  margin-right: 7px;
+}
+
+.dong-lich-su-2 a:hover {
+  text-decoration: none;
+  color: #05970a;
+}
+
+.dong-lich-su-1 a {
+  color: #000000;
+}
+
+/*Footer*/
+.facebook a:before {
+  content: "\f082";
+  font-family: fontawesome;
+  margin-right: 4%;
+  color: blue;
+}
+
+.instagram a:before {
+  content: "\f16d";
+  font-family: fontawesome;
+  margin-right: 4%;
+  color: brown;
+}
+
+.linkedIn a:before {
+  content: "\f0e1";
+  font-family: fontawesome;
+  margin-right: 4%;
+  color: deeppink;
+}
+
+.footer-menu a {
+  color: black;
+}
+
+.footer-menu a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.facebook a {
+  color: black;
+}
+
+.instagram a {
+  color: black;
+}
+
+.linkedIn a {
+  color: black;
+}
+
+.facebook a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.instagram a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.linkedIn a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #c8c6c473;
+  margin-top: 2%;
+}
+
+footer.page-footer.font-small.indigo {
+  /* padding-bottom: 2%; */
+  padding-top: 2%;
+}
+
+.footer-menu a:before {
+  content: "\f054";
+  font-family: fontawesome;
+  margin-right: 1%;
+}
+
+.nha-san-xuat {
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.lien-he {
+  line-height: 35px;
+}
+
+/*Phan trang*/
+@import url('https://rsms.me/inter/inter-ui.css');
+
+.phan-trang {
+  display: inline-block;
+  position: relative;
+  margin-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.index {
+  cursor: pointer;
+  display: inline;
+  margin-right: 30px;
+  padding: 5px;
+  user-select: none;
+  -moz-user-select: none;
+}
+.index:last-child {
+  margin: 0;
+}
+svg {
+  left: 7px;
+  position: absolute;
+  top: -11px;
+  transition: transform 500ms;
+  width: 46px;
+}
+path {
+  fill:none;
+  stroke:#2FB468;
+  stroke-dasharray: 150 150;
+  stroke-width:15;
+}
+.phan-trang.open:not(.flip) path {
+  animation: OpenRight 500ms;
+}
+.phan-trang.open.flip path {
+  animation: OpenLeft 500ms;
+}
+.phan-trang.i1 svg {
+  transform: translateX(0px);
+}
+.phan-trang.i2 svg {
+  transform: translateX(53px);
+}
+.phan-trang.i3 svg {
+  transform: translateX(107px);
+}
+.phan-trang.i4 svg {
+  transform: translateX(160px);
+}
+.phan-trang.i5 svg {
+  transform: translateX(213px);
+}
+@keyframes OpenRight {
+  25% { stroke-dasharray: 100 150; }
+  60% { stroke-dasharray: 100 150; }
+  100% { stroke-dasharray: 150 150; }
+}
+@keyframes OpenLeft {
+  25% { stroke-dashoffset: -50px; }
+  60% { stroke-dashoffset: -50px; }
+  100% { stroke-dashoffset: 0; }
+}
